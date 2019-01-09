@@ -8,12 +8,13 @@ class Triangle
   end
   
   def valid?
-    
+    a.positive? && b.positive? && c.positive?
+  end 
   
   
   def kind
     if valid?
-      
+      if 
     else
       raise TriangleError
     end
