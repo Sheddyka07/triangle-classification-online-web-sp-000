@@ -15,7 +15,10 @@ class Triangle
   def kind
     if valid?
       if a == b && b == c && c == a 
-        return 
+        return :equilateral 
+      elsif a != b && b != c && c != a 
+        return :scalene 
+        
     else
       raise TriangleError
     end
