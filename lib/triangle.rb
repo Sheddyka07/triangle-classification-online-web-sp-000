@@ -14,6 +14,7 @@ class Triangle
   
   def kind
     if valid?
+      
       if a == b && b == c && c == a 
         return :equilateral 
       elsif a != b && b != c && c != a 
