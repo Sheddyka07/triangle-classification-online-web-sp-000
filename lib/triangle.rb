@@ -20,9 +20,10 @@ class Triangle
         return :scalene 
       else 
         return :isosceles
+      end  
     else
       raise TriangleError
-    
+    end
   end  
   
   
