@@ -18,7 +18,8 @@ class Triangle
         return :equilateral 
       elsif a != b && b != c && c != a 
         return :scalene 
-        
+      else 
+        return :isosceles
     else
       raise TriangleError
     end
