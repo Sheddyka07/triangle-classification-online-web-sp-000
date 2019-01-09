@@ -7,9 +7,7 @@ class Triangle
     @c = c
   end
   
-  def valid?
-    a.positive? && b.positive? && c.positive?
-  end 
+  
   
   
   def kind
@@ -28,7 +26,9 @@ class Triangle
   end  
   
   
-    
+  def valid?
+    a.positive? && b.positive? && c.positive? && a + b > c && a + c > b && b + c > a
+  end   
       
   class TriangleError < StandardError
   
