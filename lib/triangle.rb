@@ -14,7 +14,8 @@ class Triangle
   
   def kind
     if valid?
-      if 
+      if a == b && b == c && c == a 
+        return 
     else
       raise TriangleError
     end
