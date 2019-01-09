@@ -22,7 +22,7 @@ class Triangle
         return :isosceles
     else
       raise TriangleError
-    end
+    
   end  
   
   
