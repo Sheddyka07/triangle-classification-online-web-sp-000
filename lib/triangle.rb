@@ -7,6 +7,10 @@ class Triangle
     @c = c
   end
   
+  def valid?
+    
+  
+  
   def kind
     if valid?
       
@@ -15,7 +19,7 @@ class Triangle
     end
   end  
   
-  def valid? 
+  
     
       
   class TriangleError < StandardError
